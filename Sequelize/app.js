@@ -3,7 +3,7 @@
    npm install sequelize --save
    npm install mysql2 --save
    npm install express --save
-   npm install nodemon --save
+   npm install nodemon -g --save
 
 */
 
