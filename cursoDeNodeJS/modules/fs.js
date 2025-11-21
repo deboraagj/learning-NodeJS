@@ -26,7 +26,6 @@ fs.appendFile(path.join(__dirname, "/test", "test.txt" ), "Hello World!", (error
     console.log("Arquivo modificado com sucesso!")
 })
 
-
 // Ler Arquivo
 fs.readFile(path.join(__dirname, "/test", "test.txt"), "utf-8", (error, data) =>{
     if(error){
