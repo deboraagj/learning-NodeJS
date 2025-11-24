@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize'); // Importação do Sequelize
 
 // Configuração da conexão com o banco de dados
-const sequelize = new Sequelize('sequelize','root','', {
+const sequelize = new Sequelize('senai','admin','admin', {
     host: "localhost",
     dialect:'mysql'
 })
