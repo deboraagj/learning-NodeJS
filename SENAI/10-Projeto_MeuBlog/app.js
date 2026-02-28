@@ -106,7 +106,7 @@ app.post("/edit", (req,res) => {
 })
 
 
-const PORT = 8080;
+const PORT = 8084;
 
 app.listen(PORT, () => {
     console.log("Servidor rodando na url http://localhost:"+PORT)
